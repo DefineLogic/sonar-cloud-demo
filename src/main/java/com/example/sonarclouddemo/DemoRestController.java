@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoRestController {
 
-    @RequestMapping(value = "/add")
-    public ResponseEntity<String> addAss(@RequestParam("test")String text){
+    @RequestMapping(value = "add")
+    public ResponseEntity<String> capital(@RequestParam("test")String text){
         String result = text.toUpperCase();
         return ResponseEntity.ok(result);
     }
