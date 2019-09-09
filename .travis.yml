@@ -5,7 +5,7 @@ addons:
     token:
      secure: 3c53f35e5b66413b391db3e1ab8847547ec7789d
 jdk:
-  - oraclejdk8
+  - oraclejdk9
 script:
   mvn clean package sonar:sonar -Dsonar.organization=definelogic -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=1dd2890a325e1ccb7af1f7a4956b779f7bf50765
 cache:
