@@ -12,6 +12,6 @@ public class DemoRestController {
     public ResponseEntity<String> capital(@RequestParam("test")String text){
         String result = text.toUpperCase();
         return ResponseEntity.ok(result);
-        // this is test
+        // this is test asdf
     }
 }
