@@ -1,9 +1,9 @@
-language:java
+language: java
 addons:
   sonarcloud:
-    organization:"definelogic"
-  token:
-    secure:3c53f35e5b66413b391db3e1ab8847547ec7789d
+    organization: "definelogic"
+    token:
+     secure: 3c53f35e5b66413b391db3e1ab8847547ec7789d
 jdk:
   - oraclejdk8
 script:
